@@ -1,0 +1,25 @@
+.pastel-red {
+    background-color: var(--pastel-red);
+}
+
+.pastel-blue {
+    background-color: var(--pastel-blue);
+}
+
+.pastel-green {
+    background-color: var(--pastel-green);
+}
+
+.pastel-yellow {
+    background-color: var(--pastel-yellow);
+}
+
+
+.card, button {
+    transition: transform 300ms ease-in-out;
+}
+
+.card:hover, button:hover {
+    transform: scale(1.05);
+}
+

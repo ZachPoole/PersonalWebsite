@@ -1,1 +1,50 @@
-/* You can add global styles to this file, and also import other style files */
+
+
+:root {
+    --primary: rgb(233, 233, 233);
+    --secondary: rgb(45, 45, 45); 
+    --accent: rgb(0, 154, 143);
+    
+    --pastel-red: #ff6961;
+    --pastel-green: #77dd77;
+    --pastel-blue: #aec6cf;
+    --pastel-yellow: #fdfd96;
+}
+
+
+
+
+.primary {
+    background-color: var(--primary);
+    color: white;
+}
+
+.secondary {
+    background-color: var(--secondary);
+    color: white;
+}
+
+.accent {
+    background-color: var(--accent);
+    color: white;
+}
+
+.accent-text {
+    color: var(--accent);
+}
+
+
+.text-bright {
+    color:  rgb(0, 255, 255);
+}
+
+
+
+
+/* 
+    pastel colors
+    red: #ff6961
+    green: #77dd77
+    blue: #aec6cf
+    yellow: #fdfd96
+*/

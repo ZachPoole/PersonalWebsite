@@ -1,0 +1,28 @@
+
+<div class="container mb-4">
+    <div style="margin: 15px 0;" class="row" *ngFor="let project of projects">
+        <div class="shadow card col-12">
+            <div class="row">
+                <div class="col-1 {{project.color}}"></div>
+                <div class="col-11">
+                    <div class="card-body">
+                        <h1 class="card-title">{{project.title}}</h1>
+                        <p>{{project.desc}}</p>
+                        <div *ngFor="let tech of project.technologies">
+                            <span>{{tech}}</span>
+                        </div>
+                        <a class="card-link" target='_blank' href='https://github.com/ZachPoole/{{project.github}}'>GitHub</a>
+                    </div>
+                </div>  
+            </div>      
+        </div>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col-sm-12 col-xl-6 ">
+            <button type="button"  class="my-4 p-4 btn btn-primary btn-lg btn-block" routerLink="/contact"><p class="m-0">Questions About the Code? Send Me a Message!</p></button>
+        </div>
+    </div>
+
+
+</div>
