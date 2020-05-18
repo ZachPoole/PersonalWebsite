@@ -13,6 +13,24 @@
         crossorigin="anonymous">
 </head>
 <body>
+      <noscript>
+            <form name="contact" action="/#/thankyou" method="post" netlify-honeypot="bot-field" data-netlify="true">
+                  <input type="hidden" name="form-name" value="contact" />
+                  <label>First Name </label>
+                  <input type="text" name="firstName"  required/>
+                  <label>Last Name </label>
+                  <input type="text" name="lastName"  required/>
+                  <label>Email </label>
+                  <input type="email" name="email" required/>
+                  <label>Message </label>
+                  <textarea name="message" required></textarea>
+                  <input type="submit" value="Submit" />
+                  <input name="bot-field">
+            </form>
+      </noscript>
+
+
+
   <app-root></app-root>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
