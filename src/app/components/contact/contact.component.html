@@ -1,14 +1,32 @@
 
-<form name="contact" method="post" netlify-honeypot="bot-field" data-netlify="true">
-    <input type="hidden" name="form-name" value="contact" />
-    <label>First Name </label>
-    <input type="text" name="firstName"  required/>
-    <label>Last Name </label>
-    <input type="text" name="lastName"  required/>
-    <label>Email </label>
-    <input type="email" name="email" required/>
-    <label>Message </label>
-    <textarea name="message" required> </textarea>
-    <input type="submit" value="Submit" />
-    <input name="bot-field">
-</form>
+<div class="row justify-content-center">
+    <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true" class="col-6">
+        
+        <input type="hidden" name="form-name" value="contact" />
+
+            <div class="form-group">
+                <label>First Name</label>
+                <input type="text" name="firstName" class="form-control" placeholder="First Name">
+            </div>
+        
+            <div class="form-group">
+                <label>Last Name</label>
+                <input type="text" name="lastName" class="form-control" placeholder="Last Name">
+            </div>
+
+            <div class="form-group">
+                <label>Email address</label>
+                <input type="email" name="email" class="form-control" placeholder="Enter email">
+            </div>
+
+            <div class="form-group">
+                <label>Message</label>
+                <textarea name="message" class="form-control" placeholder="Enter message"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        
+        <input name="bot-field" hidden>
+
+    </form>
+</div>
