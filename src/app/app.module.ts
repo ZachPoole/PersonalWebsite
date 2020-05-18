@@ -9,7 +9,6 @@ import { HomeComponent } from './components/home/home.component';
 import { ResumeComponent } from './components/resume/resume.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { ProjectsComponent } from './components/projects/projects.component';
-import { ProjectComponent } from './components/project/project.component';
 import { ErrorComponent } from './components/error/error.component';
 
 @NgModule({
@@ -21,7 +20,6 @@ import { ErrorComponent } from './components/error/error.component';
     ResumeComponent,
     ContactComponent,
     ProjectsComponent,
-    ProjectComponent,
     ErrorComponent
   ],
   imports: [
