@@ -11,7 +11,8 @@
                         <div *ngFor="let tech of project.technologies">
                             <span>{{tech}}</span>
                         </div>
-                        <a class="card-link" target='_blank' href='https://github.com/ZachPoole/{{project.github}}'>GitHub</a>
+                        <a *ngIf="project.finished" class="{{project.color}}-text" target='_blank' href='https://www.github.com/ZachPoole/{{project.github}}'>GitHub</a>
+                        <p *ngIf="!project.finished" class="{{project.color}}-text">Under Construction</p>
                     </div>
                 </div>  
             </div>      

@@ -10,9 +10,23 @@
     background-color: var(--pastel-green);
 }
 
-.pastel-yellow {
-    background-color: var(--pastel-yellow);
+
+
+.pastel-red-text {
+    color:  #b32720;
 }
+
+.pastel-blue-text {
+    color: #478195;
+}
+
+.pastel-green-text {
+    color: #3ca03c;
+}
+
+
+
+
 
 
 .card, button {
