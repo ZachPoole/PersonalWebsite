@@ -10,6 +10,7 @@ import { ResumeComponent } from './components/resume/resume.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { ErrorComponent } from './components/error/error.component';
+import { FormSubmitComponent } from './form-submit/form-submit.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ErrorComponent } from './components/error/error.component';
     ResumeComponent,
     ContactComponent,
     ProjectsComponent,
-    ErrorComponent
+    ErrorComponent,
+    FormSubmitComponent
   ],
   imports: [
     BrowserModule,

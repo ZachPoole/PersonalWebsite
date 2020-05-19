@@ -24,7 +24,7 @@
                 <textarea name="message" class="form-control" placeholder="Enter message" required></textarea>
             </div>
 
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" (ngSubmit)="onSubmit()" class="btn btn-primary">Submit</button>
         
         <input name="bot-field" hidden>
 
