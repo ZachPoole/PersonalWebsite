@@ -11,6 +11,7 @@ export class HomeComponent implements OnInit {
   ngOnInit() {}
 
   sendAnalyticsEvent(): void {
+    console.log("button clicked");
     gtag("event", "user_login", {
       eventCategory: "General Site Data",
       eventLabel: "Successful User Login",
