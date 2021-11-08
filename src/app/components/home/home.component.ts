@@ -11,11 +11,10 @@ export class HomeComponent implements OnInit {
   ngOnInit() {}
 
   sendAnalyticsEvent(): void {
-    //prettier-ignore
-    gtag('event', 'user_login', {
-      'event_category': 'General Site Data',
-      'event_label': 'Successful User Login',
-      'value': 1,
+    gtag("event", "user_login", {
+      eventCategory: "General Site Data",
+      eventLabel: "Successful User Login",
+      value: 1,
     });
   }
 }
