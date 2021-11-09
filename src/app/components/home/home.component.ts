@@ -17,5 +17,10 @@ export class HomeComponent implements OnInit {
       eventLabel: "Successful User Login",
       value: 1,
     });
+    gtag("event", "test_event_1234", {
+      eventCategory: "General Site Data",
+      eventLabel: "Successful User Login",
+      value: 1,
+    });
   }
 }
